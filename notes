@@ -1,0 +1,16 @@
+
+
+// Get    => Buscar informação
+// Post   => Inserir(criar) informação
+// Put    => Alterar informação
+// Delete => Remover um dado
+// Patch  => Alterar informação específica
+
+/**
+ * tipos de parâmetros
+ * Routes Params =>
+ * Query Params =>
+ * 
+ * Body Params =>
+ * 
+ */
