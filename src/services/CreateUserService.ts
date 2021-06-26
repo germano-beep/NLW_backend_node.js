@@ -14,10 +14,12 @@ class CreateUserService{
     async execute({name, email, admin, password}: IUserRequest){
         const usersRepository = getCustomRepository(UsersRepositories);
         
+        // caso passe email vazio
         if(!email){
             throw new Error("Email incorrect");
 
         }
+        // verifica se usuário já existe
         const userAlreadyExits = await usersRepository.findOne({
             email
         });
